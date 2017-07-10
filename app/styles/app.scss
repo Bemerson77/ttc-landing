@@ -5,6 +5,15 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
+//Global Variables
+@import 'variables';
+
+//Sass Partials/Style Sheets
+@import 'banner';
+@import 'header';
+@import 'vision';
+@import 'giving';
+@import 'contact';
 
 *,
 *::before,
