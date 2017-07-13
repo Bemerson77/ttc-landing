@@ -1,0 +1,65 @@
+//HEADER STYLESHEET
+
+//header variables
+$header-height: 90vh;
+$header-nav-height: 0;
+
+
+.header-outer {
+  width: 100%;
+  height: $header-height;
+  background: url('https://unsplash.it/900/1000') center center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #666;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+nav a:hover {
+  -moz-box-shadow: 0 0 0 1px #fff;
+  -webkit-box-shadow: 0 0 0 1px #fff;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+/* ---------------------------------------- */
+
+body.sticky-header {
+  padding-top: 100px;
+}
+
+body.sticky-header header {
+  height: 60px;
+}
+
+body.sticky-header header h1 {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+}

@@ -9,7 +9,6 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import 'variables';
 
 //Sass Partials/Style Sheets
-@import 'banner';
 @import 'header';
 @import 'vision';
 @import 'giving';
@@ -19,6 +18,8 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 *::before,
 *::after {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 img {
