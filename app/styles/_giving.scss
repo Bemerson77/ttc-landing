@@ -1,0 +1,10 @@
+//giving STYLESHEET
+
+//giving variables
+$giving-height: 500px;
+
+//giving outer container
+.giving-outer {
+  height: $giving-height;
+  background-color: $ttc-orange;
+}

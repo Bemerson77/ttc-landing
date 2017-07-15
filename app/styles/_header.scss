@@ -4,29 +4,6 @@
 $header-height: 90vh;
 $header-nav-height: 100px;
 
-// * {
-//   -moz-box-sizing: border-box;
-//   -webkit-box-sizing: border-box;
-//   box-sizing: border-box;
-// }
-//
-// html,
-// body {
-//   padding: 0;
-//   margin: 0;
-// }
-//
-// body {
-//   background-color: #ecf0f2;
-//   font-family: helvetica, arial, sans-serif;
-//   font-size: 16px;
-//   padding-top: 330px;
-//   -moz-transition: padding-top 0.5s ease;
-//   -o-transition: padding-top 0.5s ease;
-//   -webkit-transition: padding-top 0.5s ease;
-//   transition: padding-top 0.5s ease;
-// }
-
 //header outer container
 .header-outer {
   width: 100%;
@@ -36,10 +13,10 @@ $header-nav-height: 100px;
   position: relative;
   top: 0;
   overflow: hidden;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 .header-outer::before {
@@ -49,7 +26,7 @@ $header-nav-height: 100px;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0, 0.3);
+  // background: rgba(0,0,0, 0.3);
 }
 
 .header-social-nav {
@@ -116,6 +93,7 @@ $header-nav-height: 100px;
   color: $white;
   text-decoration: none !important;
   font-size: 30px;
+  transition: 0.35s;
 
   &:hover {
     color: $ttc-orange;
@@ -191,13 +169,17 @@ $header-nav-height: 100px;
 // Sticky Header Styles
 
 body.sticky-header {
-  padding-top: 100px;
+  padding-top: $header-nav-height;
 }
 
 body.sticky-header .header-outer {
   position: fixed;
   height: $header-nav-height;
   background: $ttc-blue;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 body.sticky-header
