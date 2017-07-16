@@ -5,7 +5,33 @@ $vision-height: 500px;
 
 //vision outer container
 .vision-outer {
-  height: $vision-height;
+  min-height: $vision-height;
   background-color: $light-grey;
   padding-top: 50px;
+}
+
+.main-vision-wrapper {
+  text-align: center;
+  height: 50px;
+}
+
+.main-vision-text {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  color: $dark-grey;
+}
+
+.main-vision-slash {
+  // color: $ttc-orange;
+}
+
+.vision-wrapper {
+  margin-top: 20px;
+
+  p {
+    font-size: 16px;
+  }
 }

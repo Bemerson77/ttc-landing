@@ -5956,11 +5956,11 @@ body.sticky-header
   -webkit-transform: rotate(-20deg);
   /* Chrome, Safari, Opera */
   transform: rotate(-20deg);
-  transition: visibility .5s, opacity 3s, transform;
+  transition: visibility, opacity, transform;
   transition-property: visibility, opacity, transform;
   transition-duration: 0.5s, 1s, 1s;
   transition-timing-function: initial, initial;
-  transition-delay: 0.6s, 0.6s, 0.8s; }
+  transition-delay: 0.8s, 0.8s, 1s; }
   body.sticky-header
   .header-nav-outer
   .header-nav-logo-wrapper:hover {
@@ -5975,9 +5975,26 @@ body.sticky-header
     transition-timing-function: linear; }
 
 .vision-outer {
-  height: 500px;
+  min-height: 500px;
   background-color: #f2f2f2;
   padding-top: 50px; }
+
+.main-vision-wrapper {
+  text-align: center;
+  height: 50px; }
+
+.main-vision-text {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  color: #292929; }
+
+.vision-wrapper {
+  margin-top: 20px; }
+  .vision-wrapper p {
+    font-size: 16px; }
 
 .giving-outer {
   height: 500px;

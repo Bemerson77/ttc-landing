@@ -204,11 +204,11 @@ body.sticky-header
   -ms-transform: rotate(-20deg); /* IE 9 */
   -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
   transform: rotate(-20deg);
-  transition: visibility .5s, opacity 3s, transform;
+  transition: visibility, opacity, transform;
   transition-property: visibility, opacity, transform;
   transition-duration: 0.5s, 1s, 1s;
   transition-timing-function: initial, initial;
-  transition-delay: 0.6s, 0.6s, 0.8s;
+  transition-delay: 0.8s, 0.8s, 1s;
 
   &:hover {
     -ms-transform: rotate(0deg); /* IE 9 */
