@@ -5814,10 +5814,7 @@ button.close {
   position: relative;
   top: 0;
   overflow: hidden;
-  -moz-transition: all 0.8s ease;
-  -o-transition: all 0.8s ease;
-  -webkit-transition: all 0.8s ease;
-  transition: all 0.8s ease; }
+  z-index: 1; }
 
 .header-outer::before {
   content: "";
@@ -5825,12 +5822,13 @@ button.close {
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  background: rgba(0, 0, 0, 0.3); }
 
 .header-social-nav {
-  position: relative;
-  float: right;
-  z-index: 1;
+  position: fixed;
+  right: 0;
+  z-index: 2;
   display: inline-block;
   margin: 0 10px;
   padding: 0;
@@ -5923,16 +5921,14 @@ button.close {
 
 /* ---------------------------------------- */
 body.sticky-header {
-  padding-top: 100px; }
+  padding-top: 90vh; }
 
 body.sticky-header .header-outer {
   position: fixed;
   height: 100px;
-  background: #0a1f41;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  background: #0a1f41; }
+  body.sticky-header .header-outer:before {
+    background: transparent; }
 
 body.sticky-header
 .header-nav-outer
@@ -5977,24 +5973,43 @@ body.sticky-header
 .vision-outer {
   min-height: 500px;
   background-color: #f2f2f2;
-  padding-top: 50px; }
+  padding: 100px 0; }
 
-.main-vision-wrapper {
+.vision-header {
   text-align: center;
-  height: 50px; }
+  margin-bottom: 50px; }
 
-.main-vision-text {
-  display: inline-block;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 50px;
-  font-size: 24px;
-  color: #292929; }
+.vision-item-outer {
+  height: 360px;
+  margin-top: 30px; }
 
-.vision-wrapper {
-  margin-top: 20px; }
-  .vision-wrapper p {
-    font-size: 16px; }
+.vision-txt-outer {
+  display: table;
+  height: 100%; }
+
+.vision-txt-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
+.txt-wrapper {
+  float: none; }
+  .txt-wrapper p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px; }
+
+.vision-img-wrapper {
+  display: table;
+  height: 100%; }
+
+.vision-img-inner {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center; }
+
+.vision-img {
+  width: 293px; }
 
 .giving-outer {
   height: 500px;
@@ -6011,6 +6026,7 @@ img {
   max-width: 100%; }
 
 body {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif; }
 
 /*# sourceMappingURL=app.css.map */

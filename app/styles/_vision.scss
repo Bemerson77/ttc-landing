@@ -7,31 +7,62 @@ $vision-height: 500px;
 .vision-outer {
   min-height: $vision-height;
   background-color: $light-grey;
-  padding-top: 50px;
+  padding: 100px 0;
 }
 
-.main-vision-wrapper {
+.vision-header {
   text-align: center;
-  height: 50px;
+  margin-bottom: 50px;
 }
 
-.main-vision-text {
-  display: inline-block;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 50px;
-  font-size: 24px;
-  color: $dark-grey;
+
+//Vision Rows
+.vision-item-outer {
+  height: 360px;
+  margin-top: 30px;
 }
 
-.main-vision-slash {
-  // color: $ttc-orange;
+.live-unified-wrapper {
+
 }
 
-.vision-wrapper {
-  margin-top: 20px;
+//Vision Txt
+.vision-txt-outer {
+  display: table;
+  height: 100%;
+}
+
+.vision-txt-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.txt-wrapper {
+
+  float: none;
 
   p {
-    font-size: 16px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
   }
+}
+
+//Vision Img
+.vision-img-wrapper {
+  display: table;
+  height: 100%
+}
+
+.vision-img-inner {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision-img {
+
+  width: 293px;
+
 }
