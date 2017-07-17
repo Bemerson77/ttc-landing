@@ -5850,11 +5850,11 @@ button.close {
         color: #c96127; }
 
 .header-banner-inner {
-  position: relative;
-  top: 18%; }
+  position: relative; }
 
 .banner-logo-wrapper {
-  float: none; }
+  float: none;
+  width: 71%; }
 
 .chevron-wrapper {
   margin-top: 30px; }
