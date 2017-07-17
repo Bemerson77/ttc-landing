@@ -8,8 +8,10 @@ $header-nav-height: 100px;
 .header-outer {
   width: 100%;
   height: $header-height;
+  // min-height: 600px;
   background: url('../images/trail.jpg') center center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   top: 0;
   overflow: hidden;
@@ -31,7 +33,7 @@ $header-nav-height: 100px;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0, 0.3);
+  background: rgba(0,0,0, 0.2);
 }
 
 //header social nav
@@ -70,7 +72,7 @@ $header-nav-height: 100px;
 //Header banner container
 .header-banner-inner {
   position: relative;
-  top: 70px;
+  top: 18%;
 }
 
 .banner-logo-outer {
@@ -180,7 +182,8 @@ body.sticky-header {
 body.sticky-header .header-outer {
   position: fixed;
   height: $header-nav-height;
-  background: $ttc-blue;
+  // min-height: $header-nav-height;
+  // background: $ttc-blue;
   // transition: background;
   // transition-property: background;
   // transition-duration: 0.3s;
@@ -188,7 +191,7 @@ body.sticky-header .header-outer {
   // transition-delay: 0.8s;
 
   &:before {
-    background: rgba(0,0,0, 0);
+    // background: rgba(0,0,0,0.3);
   }
 }
 
@@ -196,7 +199,7 @@ body.sticky-header
 .header-nav-outer
 .header-nav-inner
 .header-nav {
-  background-color: rgba(0, 0, 0, 0);
+  // background-color: rgba(0, 0, 0, 0);
 }
 
 body.sticky-header .header-banner-inner {
@@ -216,9 +219,9 @@ body.sticky-header
   transform: rotate(-20deg);
   transition: visibility, opacity, transform;
   transition-property: visibility, opacity, transform;
-  transition-duration: 0.5s, 1s, 1s;
+  transition-duration: 0.1s, 1s, 1s;
   transition-timing-function: initial, initial;
-  transition-delay: 0.8s, 0.8s, 1s;
+  transition-delay: 0.1s;
 
   &:hover {
     -ms-transform: rotate(0deg); /* IE 9 */

@@ -5811,6 +5811,7 @@ button.close {
   height: 90vh;
   background: url("../images/trail.jpg") center center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   top: 0;
   overflow: hidden;
@@ -5823,7 +5824,7 @@ button.close {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.2); }
 
 .header-social-nav {
   position: fixed;
@@ -5850,7 +5851,7 @@ button.close {
 
 .header-banner-inner {
   position: relative;
-  top: 70px; }
+  top: 18%; }
 
 .banner-logo-wrapper {
   float: none; }
@@ -5925,16 +5926,7 @@ body.sticky-header {
 
 body.sticky-header .header-outer {
   position: fixed;
-  height: 100px;
-  background: #0a1f41; }
-  body.sticky-header .header-outer:before {
-    background: transparent; }
-
-body.sticky-header
-.header-nav-outer
-.header-nav-inner
-.header-nav {
-  background-color: transparent; }
+  height: 100px; }
 
 body.sticky-header .header-banner-inner {
   -moz-transform: scale(0, 0);
@@ -5954,9 +5946,9 @@ body.sticky-header
   transform: rotate(-20deg);
   transition: visibility, opacity, transform;
   transition-property: visibility, opacity, transform;
-  transition-duration: 0.5s, 1s, 1s;
+  transition-duration: 0.1s, 1s, 1s;
   transition-timing-function: initial, initial;
-  transition-delay: 0.8s, 0.8s, 1s; }
+  transition-delay: 0.1s; }
   body.sticky-header
   .header-nav-outer
   .header-nav-logo-wrapper:hover {
