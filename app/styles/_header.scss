@@ -154,7 +154,7 @@ $header-nav-height: 100px;
   width: 100px;
 
   a {
-    line-height: 9px;
+    line-height: $header-nav-height;
     display: block;
     padding: 0 15px;
     text-decoration: none;

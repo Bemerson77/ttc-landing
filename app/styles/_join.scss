@@ -8,3 +8,48 @@ $join-height: 500px;
   height: $join-height;
   background-color: $ttc-orange;
 }
+
+.join-inner {
+  heigh: $join-height;
+}
+
+
+//MC Styles
+
+#mc-embedded-subscribe-form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form-inner {
+  display: inline-block;
+}
+
+#mc-embedded-subscribe-form {
+
+}
+
+.email-input-wrapper {
+  display: inline-block;
+}
+
+.email-input {
+  display: inline-block;
+  width: 390px;
+  height: 52px;
+  border: none;
+  padding-left: 15px;
+}
+
+.sub-button-wrapper {
+  display: inline-block;
+}
+
+.sub-button {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  margin-left: -5px;
+  border: none;
+  font-size: 16px;
+
+}
