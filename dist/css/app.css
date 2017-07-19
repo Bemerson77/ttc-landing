@@ -6004,14 +6004,28 @@ body.sticky-header
 
 .join-outer {
   height: 500px;
-  background-color: #c96127; }
+  background-color: #292929; }
 
 .join-inner {
-  heigh: 500px; }
+  height: 500px; }
+
+.join-header {
+  color: white;
+  text-align: center;
+  margin-top: 90px; }
+
+.join-text-wrapper {
+  margin-top: 30px; }
+  .join-text-wrapper p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: lighter; }
 
 #mc-embedded-subscribe-form {
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 50px; }
 
 .form-inner {
   display: inline-block; }
