@@ -154,7 +154,7 @@ $header-nav-height: 100px;
   width: 100px;
 
   a {
-    line-height: $header-nav-height;
+    line-height: 9px;
     display: block;
     padding: 0 15px;
     text-decoration: none;
@@ -218,9 +218,9 @@ body.sticky-header
   transform: rotate(-20deg);
   transition: visibility, opacity, transform;
   transition-property: visibility, opacity, transform;
-  transition-duration: 0.1s, 1s, 1s;
+  transition-duration: 0.1s, 1s, 0.5s;
   transition-timing-function: initial, initial;
-  transition-delay: 0.1s;
+  // transition-delay: s;
 
   &:hover {
     -ms-transform: rotate(0deg); /* IE 9 */
@@ -228,8 +228,8 @@ body.sticky-header
     transform: rotate(0deg);
     transition: transform 3s linear;
     transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
     // transition-delay: 0.3s;
   }
 }

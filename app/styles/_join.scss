@@ -1,0 +1,10 @@
+//join STYLESHEET
+
+//join variables
+$join-height: 500px;
+
+//join outer container
+.join-outer {
+  height: $join-height;
+  background-color: $ttc-orange;
+}
