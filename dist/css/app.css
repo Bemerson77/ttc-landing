@@ -6014,6 +6014,15 @@ body.sticky-header
   overflow: hidden;
   z-index: 0; }
 
+.header-outer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2); }
+
 .join-inner {
   height: 500px; }
 
