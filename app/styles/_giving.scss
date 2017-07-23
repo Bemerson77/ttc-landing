@@ -1,10 +1,60 @@
-//giving STYLESHEET
+//give STYLESHEET
 
-//giving variables
-$giving-height: 500px;
+//give variables
+$give-height: 500px;
 
-//giving outer container
-.giving-outer {
-  height: $giving-height;
-  background-color: $ttc-orange;
+//give outer container
+.give-outer {
+  height: $give-height;
+  background-color: $light-gold;
+}
+
+.give-inner {
+  height: $give-height;
+}
+
+.give-header {
+  color: $white;
+  text-align: center;
+  margin-top: 90px;
+  text-transform: uppercase;
+}
+
+.give-text-wrapper {
+  margin-top: 30px;
+
+  p {
+    text-align: center;
+    color: $white;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: lighter;
+  }
+}
+
+//give button
+.give-btn-wrapper {
+  text-align: center;
+  margin-top: 50px;
+
+  a {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $white;
+    color: $white;
+    background: transparent;
+    padding: 15px 40px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.35s;
+
+    &:hover {
+      background: $white;
+      color: $light-gold;
+    }
+  }
 }
