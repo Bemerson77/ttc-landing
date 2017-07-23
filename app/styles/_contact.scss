@@ -1,0 +1,33 @@
+//contact STYLESHEET
+
+//contact variables
+$contact-height: 500px;
+
+//contact outer container
+.contact-outer {
+  height: $contact-height;
+  background-color: $light-grey;
+}
+
+.contact-inner {
+  height: $contact-height;
+}
+
+.contact-header {
+  color: $white;
+  text-align: center;
+  margin-top: 90px;
+  text-transform: uppercase;
+}
+
+.contact-text-wrapper {
+  margin-top: 30px;
+
+  p {
+    text-align: center;
+    color: $white;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: lighter;
+  }
+}

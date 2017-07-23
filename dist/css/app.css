@@ -6004,7 +6004,15 @@ body.sticky-header
 
 .join-outer {
   height: 500px;
-  background-color: #292929; }
+  background-color: #292929;
+  width: 100%;
+  background: url("../images/worship.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  z-index: -1; }
 
 .join-inner {
   height: 500px; }
@@ -6019,7 +6027,7 @@ body.sticky-header
   margin-top: 30px; }
   .join-text-wrapper p {
     text-align: center;
-    color: #c9c9c9;
+    color: white;
     font-size: 18px;
     line-height: 35px;
     font-weight: lighter; }
@@ -6095,11 +6103,39 @@ body.sticky-header
     background: transparent;
     padding: 15px 40px;
     display: inline-block;
-    text-decoration: none;
-    transition: 0.35s; }
+    text-decoration: none; }
     .give-btn-wrapper a:hover {
       background: white;
       color: #d2c8c0; }
+
+.contact-outer {
+  height: 500px;
+  background-color: #f2f2f2; }
+
+.contact-inner {
+  height: 500px; }
+
+.contact-header {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  text-transform: uppercase; }
+
+.contact-text-wrapper {
+  margin-top: 30px; }
+  .contact-text-wrapper p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: lighter; }
+
+.footer-outer {
+  height: 500px;
+  background-color: #f2f2f2; }
+
+.footer-inner {
+  height: 500px; }
 
 *,
 *::before,
