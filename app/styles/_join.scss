@@ -15,6 +15,7 @@ $join-height: 500px;
   top: 0;
   overflow: hidden;
   z-index: 0;
+  padding: 50px 0;
 }
 
 .header-outer::before {
@@ -34,7 +35,7 @@ $join-height: 500px;
 .join-header {
   color: $white;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 70px;
   text-transform: uppercase;
 }
 
@@ -97,10 +98,15 @@ $join-height: 500px;
   border: none;
   font-size: 16px;
   background: $med-grey;
-  color: $dark-grey;
+  color: $dark-med-grey;
   font-weight: bold;
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    background: $dark-med-grey;
+    color: $med-grey;
   }
 }

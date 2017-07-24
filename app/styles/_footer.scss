@@ -1,7 +1,7 @@
 //footer STYLESHEET
 
 //footer variables
-$footer-height: 200px;
+$footer-height: 100px;
 
 //footer outer container
 .footer-outer {
@@ -11,4 +11,8 @@ $footer-height: 200px;
 
 .footer-inner {
   min-height: $footer-height;
+}
+
+.footer-logo-wrapper {
+  width: 80px;
 }

@@ -5850,7 +5850,8 @@ button.close {
         color: #c96127; }
 
 .header-banner-inner {
-  position: relative; }
+  position: relative;
+  top: 18%; }
 
 .banner-logo-wrapper {
   float: none;
@@ -6018,7 +6019,8 @@ body.sticky-header
   position: relative;
   top: 0;
   overflow: hidden;
-  z-index: 0; }
+  z-index: 0;
+  padding: 50px 0; }
 
 .header-outer::before {
   content: "";
@@ -6035,7 +6037,7 @@ body.sticky-header
 .join-header {
   color: white;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 70px;
   text-transform: uppercase; }
 
 .join-text-wrapper {
@@ -6076,14 +6078,18 @@ body.sticky-header
   border: none;
   font-size: 16px;
   background: #c9c9c9;
-  color: #292929;
+  color: #626262;
   font-weight: bold; }
   .sub-button:focus {
     outline: none; }
+  .sub-button:hover {
+    background: #626262;
+    color: #c9c9c9; }
 
 .give-outer {
   min-height: 500px;
-  background-color: #d2c8c0; }
+  background-color: #d2c8c0;
+  padding: 50px 0; }
 
 .give-inner {
   min-height: 500px; }
@@ -6091,7 +6097,7 @@ body.sticky-header
 .give-header {
   color: white;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 70px;
   text-transform: uppercase; }
 
 .give-text-wrapper {
@@ -6103,7 +6109,7 @@ body.sticky-header
     line-height: 35px;
     font-weight: lighter; }
     .give-text-wrapper p a {
-      color: white;
+      color: #626262;
       text-decoration: none; }
       .give-text-wrapper p a:hover {
         color: #c96127; }
@@ -6130,7 +6136,8 @@ body.sticky-header
 
 .contact-outer {
   min-height: 500px;
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  padding: 50px 0; }
 
 .contact-inner {
   min-height: 500px; }
@@ -6138,7 +6145,7 @@ body.sticky-header
 .contact-header {
   color: #292929;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 70px;
   text-transform: uppercase; }
 
 .contact-text-wrapper {
@@ -6149,13 +6156,21 @@ body.sticky-header
     font-size: 18px;
     line-height: 35px;
     font-weight: lighter; }
+    .contact-text-wrapper p a {
+      color: #626262;
+      text-decoration: none; }
+      .contact-text-wrapper p a:hover {
+        color: #c96127; }
 
 .footer-outer {
-  min-height: 200px;
+  min-height: 100px;
   background-color: #292929; }
 
 .footer-inner {
-  min-height: 200px; }
+  min-height: 100px; }
+
+.footer-logo-wrapper {
+  width: 80px; }
 
 *,
 *::before,

@@ -7,6 +7,7 @@ $contact-height: 500px;
 .contact-outer {
   min-height: $contact-height;
   background-color: $light-grey;
+  padding: 50px 0;
 }
 
 .contact-inner {
@@ -16,7 +17,7 @@ $contact-height: 500px;
 .contact-header {
   color: $dark-grey;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 70px;
   text-transform: uppercase;
 }
 
@@ -29,5 +30,14 @@ $contact-height: 500px;
     font-size: 18px;
     line-height: 35px;
     font-weight: lighter;
+
+    a {
+      color: $dark-med-grey;
+      text-decoration: none;
+
+      &:hover {
+        color: $ttc-orange;
+      }
+    }
   }
 }
