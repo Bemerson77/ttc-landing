@@ -32,21 +32,22 @@ $(function() {
 
     });
 
-    var body = $('body');
-    var backgrounds = [
-      'url(http://static.jsbin.com/images/jsbin_static.png)',
-      'url(http://static.jsbin.com/images/popout.png)'];
+    var footerLogo = $('.footer-logo');
+    var footerLogoImgs = [
+      './images/love-jesus-white.png',
+      './images/serve-people-white.png',
+      './images/live-unified-white.png'
+    ];
     var current = 0;
-
-    function nextBackground() {
-        body.css(
-            'background',
-        backgrounds[current = ++current % backgrounds.length]);
-
-        setTimeout(nextBackground, 5000);
+    // console.log(current);
+    function nextFooterLogo() {
+        current = ++current % footerLogoImgs.length;
+        $(".footer-logo").attr("src", footerLogoImgs[current]);
+        
+        setTimeout(nextFooterLogo, 5000);
     }
-    setTimeout(nextBackground, 5000);
-    body.css('background', backgrounds[0]);
+    setTimeout(nextFooterLogo, 5000);
+
 });
 
 },{"jquery":2}],2:[function(require,module,exports){
