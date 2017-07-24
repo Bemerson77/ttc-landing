@@ -10,6 +10,9 @@ $vision-height: 500px;
   padding: 100px 0;
 }
 
+.vision-inner {
+  min-height: $vision-height;
+}
 .vision-header {
   text-align: center;
   margin-bottom: 50px;

@@ -5,12 +5,12 @@ $contact-height: 500px;
 
 //contact outer container
 .contact-outer {
-  height: $contact-height;
+  min-height: $contact-height;
   background-color: $light-grey;
 }
 
 .contact-inner {
-  height: $contact-height;
+  min-height: $contact-height;
 }
 
 .contact-header {

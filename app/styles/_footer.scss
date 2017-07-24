@@ -1,14 +1,14 @@
 //footer STYLESHEET
 
 //footer variables
-$footer-height: 500px;
+$footer-height: 200px;
 
 //footer outer container
 .footer-outer {
-  height: $footer-height;
+  min-height: $footer-height;
   background-color: $dark-grey;
 }
 
 .footer-inner {
-  height: $footer-height;
+  min-height: $footer-height;
 }

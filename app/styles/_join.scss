@@ -5,7 +5,7 @@ $join-height: 500px;
 
 //join outer container
 .join-outer {
-  height: $join-height;
+  min-height: $join-height;
   background-color: $dark-grey;
   width: 100%;
   background: url('../images/worship.jpg') center center;
@@ -28,7 +28,7 @@ $join-height: 500px;
 }
 
 .join-inner {
-  height: $join-height;
+  min-height: $join-height;
 }
 
 .join-header {

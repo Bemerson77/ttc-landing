@@ -5,12 +5,12 @@ $give-height: 500px;
 
 //give outer container
 .give-outer {
-  height: $give-height;
+  min-height: $give-height;
   background-color: $light-gold;
 }
 
 .give-inner {
-  height: $give-height;
+  min-height: $give-height;
 }
 
 .give-header {
@@ -29,6 +29,15 @@ $give-height: 500px;
     font-size: 18px;
     line-height: 35px;
     font-weight: lighter;
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        color: $ttc-orange;
+      }
+    }
   }
 }
 

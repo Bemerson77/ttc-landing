@@ -233,3 +233,13 @@ body.sticky-header
     // transition-delay: 0.3s;
   }
 }
+
+
+// Media Query
+
+@media screen and (max-width: 768px) {
+
+  .header-outer {
+    background: chartreuse;
+  }
+}
