@@ -8,13 +8,14 @@ $join-height: 500px;
   min-height: $join-height;
   background-color: $dark-grey;
   width: 100%;
-  background: url('../images/worship.jpg') center center;
+  background: url('../images/worship.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   position: relative;
   top: 0;
   overflow: hidden;
-  z-index: 0;
+  // z-index: 0;
   padding: 50px 0;
 }
 

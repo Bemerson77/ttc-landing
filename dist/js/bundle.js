@@ -34,19 +34,27 @@ $(function() {
 
     var footerLogo = $('.footer-logo');
     var footerLogoImgs = [
-      './images/love-jesus-white.png',
-      './images/serve-people-white.png',
-      './images/live-unified-white.png'
+        './images/love-jesus-white.png',
+        './images/serve-people-white.png',
+        './images/live-unified-white.png'
     ];
     var current = 0;
     // console.log(current);
     function nextFooterLogo() {
         current = ++current % footerLogoImgs.length;
         $(".footer-logo").attr("src", footerLogoImgs[current]);
-        
+
         setTimeout(nextFooterLogo, 5000);
     }
     setTimeout(nextFooterLogo, 5000);
+
+    // hamburger menu function
+    $('.menu').click(function() {
+        $(this).toggleClass('open');
+        $('.header-nav').toggleClass('menu-active');
+        $('.header-nav-item').toggleClass('nav-active');
+        $('.header-nav-logo-wrapper').toggleClass('logo-active');
+    });
 
 });
 
