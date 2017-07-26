@@ -34,5 +34,6 @@ body {
 }
 
 .content {
-  -webkit-transform: translate3d(0,0,0);
+  position: relative;
+  z-index: -1;
 }
