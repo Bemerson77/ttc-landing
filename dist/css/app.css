@@ -5881,7 +5881,8 @@ button.close {
   width: 80px;
   cursor: pointer;
   visibility: hidden;
-  opacity: 0; }
+  opacity: 0;
+  z-index: 6; }
 
 .header-nav-outer {
   position: absolute;
@@ -6000,7 +6001,8 @@ body.sticky-header
     top: 37px;
     right: 30px;
     vertical-align: middle;
-    transition-duration: 0.5s; }
+    transition-duration: 0.5s;
+    z-index: 5; }
     .btn2 .icon {
       transition-duration: 0.5s;
       position: absolute;
@@ -6050,7 +6052,13 @@ body.sticky-header
 
   .menu-active {
     height: 100vh;
-    background-color: #0a1f41; }
+    background-color: #0a1f41;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
 
   .nav-active {
     visibility: visible;
