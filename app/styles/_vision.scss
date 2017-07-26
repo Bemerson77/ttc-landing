@@ -69,3 +69,38 @@ $vision-height: 500px;
   width: 293px;
 
 }
+
+@media (max-width: 992px) {
+
+  .vision-item-outer {
+    height: 100%;
+  }
+
+  .vision-img-wrapper {
+    margin: 0 auto;
+  }
+
+  .vision-txt-outer {
+    margin: 50px 0;
+  }
+
+  .txt-wrapper {
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .serve-people-wrapper {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .people-txt-wrapper {
+    order: 2;
+  }
+
+  .people-img-wrapper {
+    order: 1;
+  }
+}
