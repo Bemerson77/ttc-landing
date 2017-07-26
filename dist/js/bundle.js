@@ -77,7 +77,7 @@ $(function() {
       }, 650);
     });
 
-    $('.header-nav-logo-wrapper, .header-nav-item a').click(function(){
+    $('.header-nav-item a').click(function(){
       $('.menu').toggleClass('open');
       $('.header-nav').removeClass('menu-active');
       $('.header-nav-item').removeClass('nav-active');

@@ -15,14 +15,6 @@ $header-nav-height: 100px;
   top: 0;
   overflow: hidden;
   z-index: 1;
-  // -moz-transition: all 0.8s ease;
-  // -o-transition: all 0.8s ease;
-  // -webkit-transition: all 0.8s ease;
-  // transition: all 0.8s ease;
-  // transition: background;
-  // transition-property: background;
-  // transition-duration: 5s;
-  // transition-timing-function: ease;
 }
 
 .header-outer::before {
@@ -240,6 +232,10 @@ body.sticky-header
 @media screen and (max-width: 768px) {
 
   $mobile-nav-height: 100vh;
+
+  .header-outer {
+    background-attachment: scroll;
+  }
 
   .header-banner-inner {
     top: 28%;
