@@ -1,7 +1,7 @@
 //HEADER STYLESHEET
 
 //header variables
-$header-height: 90vh;
+$header-height: 100vh;
 $header-nav-height: 100px;
 
 //header outer container
@@ -71,7 +71,7 @@ $header-nav-height: 100px;
 //Header banner container
 .header-banner-inner {
   position: relative;
-  top: 18%;
+  top: 22%;
 }
 
 .banner-logo-outer {
@@ -242,7 +242,7 @@ body.sticky-header
   $mobile-nav-height: 100vh;
 
   .header-banner-inner {
-    top: 25%;
+    top: 28%;
   }
 
   .header-nav-outer {

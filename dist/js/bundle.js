@@ -71,6 +71,20 @@ $(function() {
         $('.header-social-nav').toggleClass('social-active');
     });
 
+    $('.header-nav-logo-wrapper').click(function(){
+      $('html, body').animate({
+        scrollTop: 0
+      }, 650);
+    });
+
+    $('.header-nav-logo-wrapper, .header-nav-item a').click(function(){
+      $('.menu').toggleClass('open');
+      $('.header-nav').removeClass('menu-active');
+      $('.header-nav-item').removeClass('nav-active');
+      $('.header-nav-logo-wrapper').removeClass('logo-active');
+      $('.header-social-nav').removeClass('social-active');
+    });
+
 });
 
 },{"jquery":2}],2:[function(require,module,exports){

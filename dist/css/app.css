@@ -5808,7 +5808,7 @@ button.close {
     display: none !important; } }
 .header-outer {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background: url("../images/trail.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
@@ -5851,7 +5851,7 @@ button.close {
 
 .header-banner-inner {
   position: relative;
-  top: 18%; }
+  top: 22%; }
 
 .banner-logo-wrapper {
   float: none;
@@ -5923,7 +5923,7 @@ button.close {
 
 /* ---------------------------------------- */
 body.sticky-header {
-  padding-top: 90vh; }
+  padding-top: 100vh; }
 
 body.sticky-header .header-outer {
   position: fixed;
@@ -5964,7 +5964,7 @@ body.sticky-header
 
 @media screen and (max-width: 768px) {
   .header-banner-inner {
-    top: 25%; }
+    top: 28%; }
 
   .header-nav-outer {
     position: fixed;
@@ -6152,7 +6152,6 @@ body.sticky-header
   width: 100%;
   background: url("../images/worship.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   position: relative;
   top: 0;
@@ -6195,6 +6194,9 @@ body.sticky-header
 
 .email-input-wrapper {
   display: inline-block; }
+  .email-input-wrapper div {
+    position: absolute;
+    visibility: hidden; }
 
 .email-input {
   display: inline-block;
@@ -6209,6 +6211,7 @@ body.sticky-header
   display: inline-block; }
 
 .sub-button {
+  display: inline-block;
   padding: 15px 30px;
   text-transform: uppercase;
   margin-left: -4px;
@@ -6222,6 +6225,16 @@ body.sticky-header
   .sub-button:hover {
     background: #626262;
     color: #c9c9c9; }
+
+#mce-responses {
+  color: white;
+  margin: 0 100px;
+  margin-top: 40px; }
+  #mce-responses div a {
+    color: white;
+    text-decoration: none; }
+    #mce-responses div a:hover {
+      color: #c96127; }
 
 @media (max-width: 519px) {
   .sub-button {
