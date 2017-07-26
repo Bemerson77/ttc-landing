@@ -248,7 +248,7 @@ body.sticky-header
     left: 0;
     width: 100%;
     padding: 0;
-    z-index: 100;
+    // z-index: 5;
     height: $header-nav-height;
   }
 
@@ -274,7 +274,6 @@ body.sticky-header
 
   .header-social-nav {
     visibility: hidden;
-    z-index: 100;
     bottom: 0;
     opacity: 0;
     transition: 0;
