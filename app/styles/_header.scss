@@ -371,7 +371,7 @@ body.sticky-header
 .menu-active {
   height: $mobile-nav-height;
   background-color: $ttc-blue;
-  position: absolute;
+  position: fixed;
   z-index: 5;
   top: 0;
   bottom: 0;

@@ -6053,7 +6053,7 @@ body.sticky-header
   .menu-active {
     height: 100vh;
     background-color: #0a1f41;
-    position: absolute;
+    position: fixed;
     z-index: 5;
     top: 0;
     bottom: 0;
