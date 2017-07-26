@@ -7,6 +7,7 @@ $footer-height: 100px;
 .footer-outer {
   min-height: $footer-height;
   background-color: $dark-grey;
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .footer-inner {

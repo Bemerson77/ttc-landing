@@ -6095,7 +6095,8 @@ body.sticky-header
 .vision-outer {
   min-height: 500px;
   background-color: #f2f2f2;
-  padding: 100px 0; }
+  padding: 100px 0;
+  -webkit-transform: translate3d(0, 0, 0); }
 
 .vision-inner {
   min-height: 500px; }
@@ -6168,7 +6169,8 @@ body.sticky-header
   position: relative;
   top: 0;
   overflow: hidden;
-  padding: 50px 0; }
+  padding: 50px 0;
+  -webkit-transform: translate3d(0, 0, 0); }
 
 .header-outer::before {
   content: "";
@@ -6255,7 +6257,8 @@ body.sticky-header
 .give-outer {
   min-height: 500px;
   background-color: #d2c8c0;
-  padding: 50px 0; }
+  padding: 50px 0;
+  -webkit-transform: translate3d(0, 0, 0); }
 
 .give-inner {
   min-height: 500px; }
@@ -6303,7 +6306,8 @@ body.sticky-header
 .contact-outer {
   min-height: 500px;
   background-color: #f2f2f2;
-  padding: 50px 0; }
+  padding: 50px 0;
+  -webkit-transform: translate3d(0, 0, 0); }
 
 .contact-inner {
   min-height: 500px; }
@@ -6330,7 +6334,8 @@ body.sticky-header
 
 .footer-outer {
   min-height: 100px;
-  background-color: #292929; }
+  background-color: #292929;
+  -webkit-transform: translate3d(0, 0, 0); }
 
 .footer-inner {
   min-height: 100px; }
