@@ -21,6 +21,25 @@ $footer-height: 100px;
   float: right;
 }
 
+.copy-wrapper {
+  display: inline-block;
+  height: $footer-height;
+
+  span {
+    line-height: 100px;
+    color: $white;
+
+    a {
+      text-decoration: none;
+      color: $white;
+
+      &:hover {
+        color: $ttc-orange;
+      }
+    }
+  }
+}
+
 //footer social nav
 .footer-social-nav {
   padding: 0;

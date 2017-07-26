@@ -6291,6 +6291,18 @@ body.sticky-header
   align-items: center;
   float: right; }
 
+.copy-wrapper {
+  display: inline-block;
+  height: 100px; }
+  .copy-wrapper span {
+    line-height: 100px;
+    color: white; }
+    .copy-wrapper span a {
+      text-decoration: none;
+      color: white; }
+      .copy-wrapper span a:hover {
+        color: #c96127; }
+
 .footer-social-nav {
   padding: 0;
   list-style: none;
