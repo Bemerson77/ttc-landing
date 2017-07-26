@@ -52,6 +52,7 @@ $(function() {
         $('.header-nav').toggleClass('menu-active');
         $('.header-nav-item').toggleClass('nav-active');
         $('.header-nav-logo-wrapper').toggleClass('logo-active');
+        $('.header-social-nav').toggleClass('social-active');
     });
 
 });

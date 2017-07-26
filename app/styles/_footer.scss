@@ -18,5 +18,34 @@ $footer-height: 100px;
   height: 100px;
   display: flex;
   align-items: center;
-  float: none;
+  float: right;
+}
+
+//footer social nav
+.footer-social-nav {
+  padding: 0;
+  list-style: none;
+  height: $header-nav-height;
+  text-align: center;
+
+}
+
+.footer-social-nav-item {
+  display: inline-block;
+
+  a {
+    display: block;
+    padding: 0 5px;
+
+    i{
+      line-height: $header-nav-height;
+      font-size: 40px;
+      color: $dark-med-grey;
+      transition: 0.35s;
+
+      &:hover {
+        color: $ttc-orange;
+      }
+    }
+  }
 }
