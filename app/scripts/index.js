@@ -69,7 +69,7 @@ $(function() {
         $('.header-social-nav').toggleClass('social-active');
     });
 
-    $('.header-nav-logo-wrapper').click(function(){
+    $('.header-nav-logo-wrapper', '.copy-wrapper span a').click(function(){
       $('html, body').animate({
         scrollTop: 0
       }, 650);

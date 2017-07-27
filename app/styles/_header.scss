@@ -14,7 +14,7 @@ $header-nav-height: 100px;
   position: relative;
   top: 0;
   overflow: hidden;
-  z-index: 1;
+  z-index: 5;
 }
 
 .header-outer::before {
@@ -31,7 +31,7 @@ $header-nav-height: 100px;
 .header-social-nav {
   position: fixed;
   right: 0;
-  z-index: 2;
+  z-index: 6;
   display: inline-block;
   margin: 0 10px;
   padding: 0;
@@ -112,7 +112,7 @@ $header-nav-height: 100px;
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
-  z-index: 6;
+  z-index: 1;
 }
 
 .header-nav-logo {
@@ -175,12 +175,6 @@ body.sticky-header {
 body.sticky-header .header-outer {
   position: fixed;
   height: $header-nav-height;
-  // background: $ttc-blue;
-  // transition: background;
-  // transition-property: background;
-  // transition-duration: 0.3s;
-  // transition-timing-function: ease;
-  // transition-delay: 0.8s;
 
   &:before {
     // background: rgba(0,0,0,0.3);
@@ -248,18 +242,17 @@ body.sticky-header
     left: 0;
     width: 100%;
     padding: 0;
-    // z-index: 5;
+    z-index: 5;
     height: $header-nav-height;
   }
 
-  .header-nav {
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+  // .header-nav {
+  //   position: absolute;
+  //   top: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  // }
 
   .header-nav-item {
     display: block;
@@ -325,7 +318,6 @@ body.sticky-header
 
 .btn2{
   @include btn(30px, 37px);
-  z-index: 5;
 
   .icon {
     @include icon(4px, 28px);
