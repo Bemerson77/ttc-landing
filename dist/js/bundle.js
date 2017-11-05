@@ -62,6 +62,14 @@ $(function() {
     }
     setTimeout(nextFooterLogo, 5000);
 
+    $('.check-btn').click(function() {
+      $('.check-btn-txt').toggleClass('hidden');
+    });
+
+    $('.text-btn').click(function() {
+      $('.text-btn-txt').toggleClass('hidden');
+    });
+
     // hamburger menu function
     $('.menu').click(function() {
         $(this).toggleClass('open');
