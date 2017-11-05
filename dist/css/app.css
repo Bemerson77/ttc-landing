@@ -6048,6 +6048,9 @@ body.sticky-header
   .header-nav-item.nav-active:nth-child(4) {
     transition-delay: 0.4s; }
 
+  .header-nav-item.nav-active:nth-child(5) {
+    transition-delay: 0.5s; }
+
   .menu-active {
     height: 100vh;
     background-color: #0a1f41; }
@@ -6247,16 +6250,23 @@ body.sticky-header
 .give-outer {
   min-height: 500px;
   background-color: #d2c8c0;
-  padding: 50px 0; }
+  padding: 50px 0 100px 0; }
 
 .give-inner {
-  min-height: 500px; }
+  min-height: 500px;
+  text-align: center; }
 
 .give-header {
   color: white;
   text-align: center;
   margin-top: 70px;
+  margin-bottom: 70px;
   text-transform: uppercase; }
+
+.give-sub-header {
+  color: white;
+  font-size: 70px;
+  margin-top: 80px; }
 
 .give-text-wrapper {
   margin-top: 30px; }
@@ -6272,10 +6282,15 @@ body.sticky-header
       .give-text-wrapper p a:hover {
         color: #c96127; }
 
+.give-btn-block {
+  margin-top: 50px; }
+
 .give-btn-wrapper {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 10px; }
   .give-btn-wrapper a {
+    cursor: pointer;
+    width: 240px;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 3px;

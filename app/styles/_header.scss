@@ -370,6 +370,10 @@ body.sticky-header
   transition-delay: 0.4s;
 }
 
+.header-nav-item.nav-active:nth-child(5) {
+  transition-delay: 0.5s;
+}
+
 .menu-active {
   height: $mobile-nav-height;
   background-color: $ttc-blue;
