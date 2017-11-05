@@ -6292,6 +6292,27 @@ body.sticky-header
       background: white;
       color: #d2c8c0; }
 
+.location-outer {
+  min-height: 500px;
+  background-color: #626262;
+  padding: 50px 0; }
+
+.location-inner {
+  min-height: 500px; }
+
+.location-header {
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  text-transform: uppercase; }
+
+.location-text-wrapper {
+  text-align: center;
+  color: white;
+  margin-top: 100px; }
+  .location-text-wrapper h1 {
+    font-size: 60px; }
+
 .contact-outer {
   min-height: 500px;
   background-color: #f2f2f2;
