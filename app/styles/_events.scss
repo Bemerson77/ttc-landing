@@ -1,0 +1,24 @@
+// events STYLESHEET
+
+//events variables
+$events-height: 500px;
+
+//events outer container
+.events-outer {
+  min-height: $events-height;
+  background-color: $dark-med-grey;
+  padding: 50px 0;
+  // -webkit-transform: translate3d(0,0,0);
+}
+
+.events-inner {
+  min-height: $events-height;
+}
+
+// .navbar-collapse {
+//   background-color: chartreuse;
+// }
+//
+// .branding-subtle {
+//   visibility: hidden;
+// }
