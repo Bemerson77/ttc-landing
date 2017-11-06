@@ -6155,11 +6155,18 @@ body.sticky-header
     order: 1; } }
 .events-outer {
   min-height: 500px;
-  background-color: #626262;
+  background-color: #f2f2f2;
   padding: 50px 0; }
 
 .events-inner {
   min-height: 500px; }
+
+.events-header {
+  color: #626262;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-transform: uppercase; }
 
 .join-outer {
   min-height: 500px;
