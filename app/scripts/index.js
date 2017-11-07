@@ -13,7 +13,6 @@ var $ = require('jquery');
 //     var widthVal = (widthDecimal * 100).toFixed();
 //     $('.header-banner-inner').css('top', topVal + 'px');
 // });
-$('.branding-subtle').css('visibility', 'hidden');
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
