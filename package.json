@@ -9,7 +9,7 @@
     "browserify-shim": "^3.8.12",
     "postcss-cli": "^2.5.1",
     "node-sass": "^3.4.2",
-    "eslint": "^2.2.0",
+    "eslint": "^4.18.2",
     "uglify-js": "^2.6.1",
     "parallelshell": "^2.0.0",
     "imagemin-cli": "^2.1.0",
