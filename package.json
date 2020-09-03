@@ -8,7 +8,7 @@
     "autoprefixer": "^6.3.3",
     "browserify-shim": "^3.8.12",
     "postcss-cli": "^2.5.1",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.13.1",
     "eslint": "^2.2.0",
     "uglify-js": "^2.6.1",
     "parallelshell": "^2.0.0",
