@@ -20,7 +20,7 @@
     "live-server": "^0.9.2",
     "onchange": "^2.0.0",
     "jquery": "^2.2.0",
-    "underscore": "^1.8.3",
+    "underscore": "^1.12.1",
     "bootstrap-sass": "^3.3.6"
   },
   "scripts": {
